@@ -1,0 +1,35 @@
+.logo {
+    width: 100px;
+}
+
+.icon {
+    width: 350px;
+}
+
+.input-fields {
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: none;
+    border-bottom: 1.5px solid white;
+    caret-color: white;
+    padding-left: 3px;
+    color: white;
+}
+
+.input-fields:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.7;
+}  
+:-ms-input-placeholder {
+  color: white;
+}  
+::-ms-input-placeholder {
+  color: white;
+}

@@ -1,0 +1,26 @@
+.select-fields {
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: none;
+    border-bottom: 1.5px solid white;
+    padding-left: 1px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+select > option {
+    background: #0d6efd;
+    color: white;
+ }
+
+ select > option:first-child {
+     color: black;
+ }
+
+.select-fields:focus {
+    outline: none;
+}

@@ -1,0 +1,39 @@
+.book-field {
+    background-color: transparent;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    width: 350px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    caret-color: black;
+    padding-left: 3px;
+    color: black;
+    margin-top: 15px;
+}
+
+.book-field:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .book-field {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .book-field {
+        width: 175px;
+    }
+}
+
+.book-field::placeholder {
+    color: black;
+    opacity: 0.5;
+}  
+.book-field:-ms-input-placeholder {
+  color: white;
+}  
+.book-field::-ms-input-placeholder {
+  color: white;
+}

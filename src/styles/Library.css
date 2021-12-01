@@ -1,0 +1,50 @@
+.library-links-active {
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+    text-underline-offset: 5px;
+}
+
+.library-links-active:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.library-links {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    text-underline-offset: 5px;
+}
+
+.library-links:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.search-bar {
+    border: none;
+    border-bottom: 1.25px black solid;
+    width: 300px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-bar::placeholder {
+    color: black;
+    opacity: 0.7;
+}  
+.search-bar:-ms-input-placeholder {
+  color: white;
+}  
+.search-bar::-ms-input-placeholder {
+  color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .search-bar {
+        width: 250px;
+    }
+}
