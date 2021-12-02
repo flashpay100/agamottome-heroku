@@ -31,9 +31,6 @@ async function addBook(submittedBookIsbn, submittedBookName, submittedAuthor, su
         formData.append("bookFile", submittedBookFile)
         formData.append("bookImage", submittedBookImage)
         await Axios.post(Url + "/bookfiles", formData, {
-            headers: {
-                "Content-Type": "multipart/form-data",
-            },
             params: { 
                 jwtToken : jwt,
                 bookIsbn : submittedBookIsbn
@@ -105,9 +102,6 @@ async function revokeMultipleBooks(submittedFile) {
     let formData = new FormData()
     formData.append("revokeMultipleBooksFile", submittedFile)
     await Axios.post(Url + "/userbooks", formData, {
-        headers: {
-            "Content-Type": "multipart/form-data",
-        },
         params: { 
             jwtToken : jwt 
         } 
