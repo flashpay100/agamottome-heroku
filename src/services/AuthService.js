@@ -1,6 +1,6 @@
 import Axios from 'axios'
 
-const Url = "http://apigateway-env.eba-fnwwxesw.us-east-1.elasticbeanstalk.com/authservice"
+const Url = "http://apigateway-env.eba-ni2qnjtp.us-east-1.elasticbeanstalk.com/authservice"
 
 export default function authService() {
     return "Auth Service"
