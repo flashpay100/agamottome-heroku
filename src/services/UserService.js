@@ -1,6 +1,6 @@
 import Axios from 'axios'
 
-const Url = "http://apigateway-env.eba-fnwwxesw.us-east-1.elasticbeanstalk.com/userservice"
+const Url = "http://apigateway-env.eba-ni2qnjtp.us-east-1.elasticbeanstalk.com/userservice"
 
 export default function userService() {
     return "User Service"
