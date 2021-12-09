@@ -27,7 +27,7 @@ const Header = ({ name, accountType }) => {
             <div className="container py-4">            
                 <div className="row">
                     <div className="col-md-6 text-center text-md-start">
-                        <a href="/library"><img className="d-inline-block header-logo" src={Logo} alt="Logo" /></a>
+                        <img className="d-inline-block header-logo" src={Logo} alt="Logo" />
                         <h3 className="text-white d-inline-block mx-4 mt-md-0 mt-2" style={{cursor: "pointer"}}><b>Hello, {firstName}</b></h3>
                     </div>
                     <div className="col-md-6 my-md-auto text-center text-md-end mt-2">
